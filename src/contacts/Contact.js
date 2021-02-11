@@ -10,15 +10,15 @@ function Contacts() {
         <div className={style.contsctsBlock}>
             <div className= {`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.myContacts}>Контакты</h2>
-                <div className={style.contact}>
+
                   <form className={style.contactForm}>
-                      <input className={style.contactInput}/>
-                      <input className={style.contactInput}/>
-                      <textarea className={style.contactTextArea}></textarea>
+                      <input />
+                      <input/>
+                      <textarea></textarea>
                   </form>
                     <button className={style.MyButton}>Отправить</button>
                 </div>
-            </div>
+
         </div>
     );
 }

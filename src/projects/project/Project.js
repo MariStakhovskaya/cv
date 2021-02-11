@@ -7,7 +7,7 @@ function Project(props) {
     return (
         <div className={style.project}>
             <div className={style.imgProject}>
-                <img />
+
                 <button>Смотреть</button>
             </div>
             <h3>{props.projectName}</h3>
