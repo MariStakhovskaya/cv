@@ -1,0 +1,52 @@
+.contsctsBlock{
+    height: 100vh;
+    background-color: #a664e0;
+}
+
+.contactsContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.myContacts {
+    border: 1px solid coral;
+}
+.contact {
+    border: 1px solid chartreuse;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactInput {
+    width: 90% ;
+    align-self: center;
+    height: 35px;
+    border-radius: 5px;
+    border:2px solid #7C5961;
+    margin-bottom: 5px;
+}
+
+.contactTextArea {
+    width: 90% ;
+    height: 200px;
+    border-radius: 5px;
+    border:2px solid #7C5961;
+    align-self: center;
+}
+
+.MyButton {
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    align-self: center
+}

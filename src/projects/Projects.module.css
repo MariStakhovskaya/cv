@@ -1,0 +1,20 @@
+.projectsBlock{
+    height: 100vh;
+    background-color: burlywood;
+}
+
+.projectsContainer{
+flex-direction: column;
+  justify-content: flex-start;
+}
+.title {
+    border: 1px solid coral;
+}
+.projects {
+    border: 1px solid chartreuse;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}

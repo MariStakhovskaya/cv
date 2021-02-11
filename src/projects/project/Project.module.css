@@ -1,0 +1,20 @@
+.project{
+
+    width: 250px;
+    background-color: #78d27d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.imgProject {
+    width: 250px;
+    height: 250px;
+    background-color: darkgrey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

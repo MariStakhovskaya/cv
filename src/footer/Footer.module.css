@@ -1,0 +1,27 @@
+.footerBlock{
+    /*height: 50vh;*/
+    background-color: #e7de29;
+}
+
+.footerContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.myName {
+    border: 1px solid coral;
+}
+.footerSoc {
+    border: 1px solid chartreuse;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.social {
+    width: 60px;
+    height: 60px;
+    background-color: #78d2d2;
+}
