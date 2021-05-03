@@ -1,13 +1,32 @@
 .mainBlock {
     height: 100vh;
-    background-color: #78d27d;
+    background-color: #1D1730;
 }
 
-
 .text{
-    width: 300px;
+    width: 40%;
     border: 1px solid coral;
     background-color: #d0cccc;
+}
+
+.text h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #E9E9E9;
+    margin-bottom: 15px;
+}
+
+.text h2 {
+    font-size: 100px;
+    color: #E9E9E9;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.text p {
+    font-size: 16px;
+    color: white;
+    margin-top: 0;
 }
 
 .photo {

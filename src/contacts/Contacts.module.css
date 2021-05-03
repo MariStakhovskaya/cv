@@ -1,25 +1,12 @@
-.contsctsBlock{
+.contactsBlock{
     min-height: 100vh;
-    background-color: #a664e0;
+    background-color: #2B2344;
 }
 
 .contactsContainer{
     flex-direction: column;
     justify-content: flex-start;
 }
-.myContacts {
-    border: 1px solid coral;
-}
-/*.contact {
-    border: 1px solid chartreuse;
-    width: 50%;
-    height: 350px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}*/
 
 .contactForm {
     width: 60%;
@@ -27,10 +14,9 @@
     flex-direction: column;
     background-color: darkcyan;
     margin-bottom: 10px;
-
 }
 
-input {
+.contactForm input {
     width: 80% ;
     align-self: center;
     height: 35px;
@@ -39,7 +25,7 @@ input {
     margin-bottom: 5px;
 }
 
-textarea {
+.contactForm textarea {
     width: 80% ;
     height: 200px;
     border-radius: 5px;
@@ -52,4 +38,10 @@ textarea {
     height: 35px;
     border-radius: 5px;
     align-self: center
+}
+
+@media screen and (max-width: 900px){
+    .contactForm {
+        width: 100%;
+    }
 }

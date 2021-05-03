@@ -12,10 +12,10 @@ function Main() {
 
 
             <div className={style.text}>
-                <span>Hello There</span>
+                <h4>Hello World! I am</h4>
 
-                <h1>I am Maria Stakhovskaya </h1>
-                <p> frontend developer</p>
+                <h2>Maria Stahovskaya </h2>
+                <p> Frontend React developer</p>
             </div>
             <div className={style.photo}>
 

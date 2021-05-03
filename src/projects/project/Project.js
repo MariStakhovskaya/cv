@@ -10,8 +10,8 @@ function Project(props) {
 
                 <button>Смотреть</button>
             </div>
-            <h3>{props.projectName}</h3>
-            <span>{props.projectDescription}</span>
+            <h3 className={style.projectTitle}>{props.projectName}</h3>
+            <span className={style.description}>{props.projectDescription}</span>
         </div>
     );
 }
