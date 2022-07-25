@@ -4,7 +4,7 @@
 }
 
 .text{
-    width: 40%;
+    width: 20%;
     border: 1px solid coral;
     background-color: #d0cccc;
 }
@@ -29,9 +29,47 @@
     margin-top: 0;
 }
 
+/*
 .photo {
     height: 400px;
     width: 300px;
     background-color: #d0cccc;
     border: 1px solid coral;
+}*/
+
+.photo {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+}
+.photo > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25px;
+    max-width: 100%;
+    overflow: hidden;
+    resize: horizontal;
+}
+
+.photo > div::before{
+    content: ' ';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 13px;
+    height: 13px;
+    padding: 5px;
+    background: linear-gradient(-45deg,#4c34af 50%, transparent 0);
+    background-clip: content-box;
+    cursor: ew-resize;
+    -webkit-filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 2px black);
+}
+
+.photo img {
+    user-select: none;
+    max-width: 400px;
+    clip-path: polygon(0 0, 70% 0%, 60% 100%, 0% 100%);
 }
